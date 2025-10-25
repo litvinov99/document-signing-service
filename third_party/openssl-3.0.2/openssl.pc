@@ -1,0 +1,9 @@
+prefix=/home/litvinov/cpp_files/document_signer_ver_1.4/build/deps_install
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib64
+includedir=${prefix}/include
+
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Version: 3.0.2
+Requires: libssl libcrypto

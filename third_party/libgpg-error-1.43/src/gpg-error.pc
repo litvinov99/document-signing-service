@@ -1,0 +1,15 @@
+prefix=/home/litvinov/cpp_files/document_signer_ver_1.4/build/deps_install
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib
+host=x86_64-pc-linux-gnu
+mtcflags=
+mtlibs=
+
+Name: gpg-error
+Description: GPG Runtime
+Version: 1.43
+Cflags: -I${prefix}/include
+Libs: -L${exec_prefix}/lib -lgpg-error
+Libs.private: 
+URL: https://www.gnupg.org/software/libgpg-error/index.html

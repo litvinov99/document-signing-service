@@ -1,0 +1,2 @@
+poly1305-s390x.lo: poly1305-s390x.S /usr/include/stdc-predef.h
+/usr/include/stdc-predef.h:
